@@ -35,33 +35,23 @@ pip install -r requirements.txt
 
 # Projects
 
-## Housing Price Prediction
+# Data Analysis Project
 
-This project builds a machine learning model to predict housing prices based on various features from the dataset.
+This project explores a dataset using Python and common data science tools.  
+The goal is to clean the data, perform exploratory data analysis and visualize patterns.
 
-### Dataset
-
-The dataset contains information about housing characteristics such as number of rooms, location and other factors influencing house prices.
-
-### Technologies Used
-
+## Technologies
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
 - Matplotlib
 - Jupyter Notebook
 
-### Project Workflow
-
+## Workflow
 1. Data loading
-2. Data preprocessing
-3. Handling missing values
-4. Feature selection
-5. Model training using Linear Regression
-6. Hyperparameter tuning using GridSearchCV
-7. Model evaluation
-
+2. Data cleaning
+3. Exploratory data analysis
+4. Data visualization
 
 ---
 
@@ -89,16 +79,15 @@ The dataset contains medical diagnostic measurements used to predict diabetes.
 4. Model training using Decision Tree classifier
 5. Model evaluation
 
-
 ---
 
-## Titanic Survival Prediction
+## Housing Price Prediction
 
-This project uses machine learning to predict whether passengers survived the Titanic disaster based on passenger data.
+This project builds a machine learning model to predict housing prices based on various features from the dataset.
 
 ### Dataset
 
-The dataset includes passenger information such as age, gender, class and other attributes.
+The dataset contains information about housing characteristics such as number of rooms, location and other factors influencing house prices.
 
 ### Technologies Used
 
@@ -112,12 +101,12 @@ The dataset includes passenger information such as age, gender, class and other 
 ### Project Workflow
 
 1. Data loading
-2. Data cleaning
-3. Feature engineering
-4. Encoding categorical variables
-5. Model training
-6. Model evaluation
-
+2. Data preprocessing
+3. Handling missing values
+4. Feature selection
+5. Model training using Linear Regression
+6. Hyperparameter tuning using GridSearchCV
+7. Model evaluation
 
 ---
 
@@ -149,26 +138,57 @@ The dataset contains SMS messages labeled as spam or non-spam.
 
 ---
 
+## Titanic Survival Prediction
+
+This project uses machine learning to predict whether passengers survived the Titanic disaster based on passenger data.
+
+### Dataset
+
+The dataset includes passenger information such as age, gender, class and other attributes.
+
+### Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Jupyter Notebook
+
+### Project Workflow
+
+1. Data loading
+2. Data cleaning
+3. Feature engineering
+4. Encoding categorical variables
+5. Model training
+6. Model evaluation
+
+---
+
 # Repository Structure
 
 machine-learning-projects
-│
-├── housing-price-prediction
-│   ├── housing.ipynb
-│   └── HousingData.csv
+├── data_analysis
+│   ├── data_analysis.ipynb
+│   └── data.csv
 │
 ├── diabetes-prediction
 │   ├── diabetes.ipynb
 │   └── diabetes.csv
 │
-├── titanic-survival
-│   ├── titanic.ipynb
-│   └── titanic.csv
+├── housing-price-prediction
+│   ├── housing.ipynb
+│   └── HousingData.csv
 │
-└── sms-spam-detection
-    ├── nltk.ipynb
-    ├── SMSSpamCollection
-    └── stopwords.zip
+├── sms-spam-detection
+│   ├── nltk.ipynb
+│   ├── SMSSpamCollection
+│   └── stopwords.zip
+│
+└── titanic-survival
+    ├── titanik.ipynb
+    └── titanik.csv
     
 ---
 
